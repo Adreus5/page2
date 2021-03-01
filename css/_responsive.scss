@@ -1,0 +1,125 @@
+@media screen and (max-width: 992px){
+body{
+    header{
+        .container{
+            .contenedor_logo_menu{
+                margin-bottom: 20px;
+                text-align: center;
+                .logo{
+                    
+                    a{
+                      
+                    }
+                }
+                .menu{
+                    margin-top: 50px;
+                    text-align: center;
+                        
+                }
+            
+            }
+            .textos{
+                margin: 50px 0;
+                font-size: 16px;
+                .col-md-12{
+                    .primera_linea{
+                      font-size: 1.5em;  
+                    }
+                    .segunda_linea{
+                        font-size: 1.3em;
+                    }
+                    .contenedor-btns{
+                        a{
+                            margin-bottom: 10px;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+    }
+}
+.main{
+.fotos{
+    .caracteristicas{
+        .container{
+            .row{
+                .col-md-12{
+                    .row{
+                        .thumb{
+                            img{
+
+                            }
+                        }
+                        .texto{
+                            .titulo{
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        
+    }
+}
+.clientes{
+    .container{
+        .row{
+
+        }
+        .row{
+            .cliente{
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+}
+}
+@media screen and (max-width: 768px){
+
+    .main{
+        .caracteristicas{
+            .caracteristica{
+                margin-bottom: 40px;
+            }
+        }
+        .fotos{
+            .foto{
+                text-align: center;
+                .texto{
+                    *{
+                        text-align: left;
+                    }
+                    p{
+                        margin-bottom: 10px;
+                    }
+                   
+                    
+                }
+            }
+            
+        }
+        .precios{
+            .precio{
+               .plan{
+                margin-bottom: 20px;
+               }
+            }
+        }
+    }
+
+    footer{
+        .direccion{
+            text-align: center;
+            .logo{
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
